@@ -23,7 +23,7 @@ RippleDrawable.RippleEffect.applyRippleOfCircle(YOUR_VIEW, RADIUS);
 - RippleLayout
 
 ## 需要注意的问题：
-- 由于设计原理的限制，使用RippleDrawable效果的控件，不能监听onTouch事件，否则，波纹效果不生效。（当然，办法总是有的，自己动脑）
+- 由于设计原理的限制，使用RippleDrawable效果的控件，不能监听onTouch事件，否则，波纹效果不生效。
 - 由于设计原理的限制，使用RippleDrawable效果的控件，重新设置背景的时候，也需要重新apply Ripple效果。否则，波纹效果会消失！
 
 - Android 5.0及其以上，针对任何控件，都没有使用限制，Android 5.0以下，对于以下两类控件使用波纹效果，需要稍微注意：
